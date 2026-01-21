@@ -1,0 +1,104 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+
+    margin-top: 10px;
+    /* background-color: rgb(147, 142, 142); */
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo-division {
+
+    display: inline-block;
+    height: 100%;
+}
+
+
+.logo {
+
+    height: 100%;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+
+.Content-Field {
+
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    width: 500px;
+}
+
+
+.Field {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.Field li {
+
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.buttons {
+
+    position: relative;
+    left: 40%;
+}
+
+
+.Login {
+
+    display: inline-block;
+}
+
+
+.Sign-up {
+
+    display: inline-block;
+}
+
+
+.btn {
+
+    padding: 10px 10px;
+    background-color: rgb(40, 115, 176);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: opacity 1s;
+}
+
+
+.btn:hover {
+
+    opacity: 0.9;
+}
+
+
+.btn:active {
+
+    opacity: 0.5;
+}
