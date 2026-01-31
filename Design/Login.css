@@ -47,7 +47,28 @@
 
 .input-fields {
 
-    margin-top: 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.input-fields input {
+
+    padding: 14px 10px;
+    font-size: 15px;
+}
+
+
+.input-fields label {
+
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    pointer-events: none;
+    padding: 0 4px;
+    transition: 0.2s ease;
 }
 
 
@@ -74,7 +95,7 @@
 
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 3px;
 }
 
 
@@ -178,4 +199,12 @@
     border: none;
     text-transform: uppercase;
     color: white;
+}
+
+
+.input-fields input:focus + label,
+.input-fields input:not(:placeholder-shown) + label {
+  top: -12px;
+  font-size: 18px;
+  color: #1976d2;
 }

@@ -10,15 +10,10 @@
 }
 
 
-.text-content {
-
-    text-align: justify;
-}
-
-
 .text {
 
     font-size: 25px;
+    line-height: 1.3;
     text-transform: uppercase;
 }
 
