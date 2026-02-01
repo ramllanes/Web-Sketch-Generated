@@ -1,0 +1,41 @@
+.Main-Image {
+
+    margin-top: 10px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+
+.Image {
+
+    height: 180px;
+    border: 1px solid black;
+}
+
+
+.pic {
+
+    height: 100%;
+    width: 100%;
+}
+
+
+.Content {
+
+    height: 120px;
+    border: 1px solid black;
+}
+
+
+.desc {
+
+    height: 100px;
+    border: 1px solid black;
+}
+
+
+.text {
+
+    height: 100%;
+}
