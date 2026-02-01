@@ -10,12 +10,6 @@ body {
 
 .navbar {
 
-<<<<<<< HEAD
-=======
-    margin-top: 10px;
-    width: 100%;
-    height: 90px;
->>>>>>> ed995f94e559f618dab7c20297e284aee17d6ce8
     display: flex;
     justify-content: space-between;
     height: 90px;
@@ -56,15 +50,9 @@ body {
 
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
-<<<<<<< HEAD
     font-size: 18px;
     color: black;
 
-=======
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
->>>>>>> ed995f94e559f618dab7c20297e284aee17d6ce8
 }
 
 

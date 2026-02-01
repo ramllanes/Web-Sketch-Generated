@@ -1,16 +1,14 @@
 .Main-Image {
 
     margin-top: 10px;
-    height: 300px;
+    height: 350px;
     width: 300px;
-    border: 1px solid black;
 }
 
 
 .Image {
 
     height: 180px;
-    border: 1px solid black;
 }
 
 
@@ -23,19 +21,33 @@
 
 .Content {
 
-    height: 120px;
-    border: 1px solid black;
+    height: 170px;
+    border: 1px solid rgb(213, 213, 213);
 }
 
-
-.desc {
-
-    height: 100px;
-    border: 1px solid black;
-}
 
 
 .text {
 
-    height: 100%;
+    margin: 0;
+    font-size: 15px;
+    padding: 10px 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.division-button {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.view-more-btn {
+
+    padding: 8px 10px;
+    background-color: rgba(30, 128, 232, 0.786);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
 }
