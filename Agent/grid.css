@@ -1,53 +1,122 @@
-.Main-Image {
+* {
 
-    margin-top: 10px;
-    height: 350px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+
+    background-color: wheat;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.select {
+
+    margin-right: 15px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.select option {
+
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.25);
+}
+
+
+.category {
+
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(56, 56, 56, 0.6);
+    cursor: none;
+}
+
+
+.logo-division {
+
+    height: 100%;
+    width: 350px;
+}
+
+
+.logo {
+
+    height: 100%;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+
+section {
+
+    padding-top:50px;
+}
+
+
+.Main-Card {
+
     width: 300px;
+    height: 400px;
+    margin-left: 10px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.25);
 }
 
 
-.Image {
+.image-card {
 
-    height: 180px;
+    height: 200px;
 }
 
 
-.pic {
+.card {
 
     height: 100%;
     width: 100%;
 }
 
 
-.Content {
+.Description {
 
-    height: 170px;
-    border: 1px solid rgb(213, 213, 213);
+    width: 300px;
+    height: 180px;
+    padding: 10px 10px;
+    line-height: 1.2;
 }
-
 
 
 .text {
-
-    margin: 0;
-    font-size: 15px;
-    padding: 10px 5px;
-    font-family: "Montserrat", sans-serif;
+    
+    max-width: 250px;
+     padding: 10px 20px;
 }
 
 
-.division-button {
+.btn {
 
     display: flex;
     justify-content: center;
 }
 
 
-.view-more-btn {
+.btn button {
 
-    padding: 8px 10px;
-    background-color: rgba(30, 128, 232, 0.786);
-    color: #fff;
-    border: none;
-    border-radius: 3px;
+    margin-top: 25px;
+    padding: 5px 10px;
+
+}
+
+
+.Parent-Card {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
 }

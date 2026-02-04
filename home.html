@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="Design/home.css">
     <link rel="stylesheet" href="Design/text.css">
     <link rel="stylesheet" href="Design/Login.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Sketch-Free</title>
 </head>
 <body>
@@ -29,9 +30,9 @@
 
         <div class="buttons">
            
-                <button class="btn">Login</button>
+                <button class="btn-log">Login</button>
             
-                <button class="btn">Sign-up</button>
+                <button class="btn-sign">Sign-up</button>
         </div>
 
     </nav>
@@ -75,38 +76,62 @@
             </form>
         </div>
         
-        <div class="Signup-Division">
+        <div class="Signup-Division" id="contact">
 
-            <form class="form" action="">
+            <form class="form" action="" method="post" id="Sign-up-Form" name="contact">
                 <div class="input-fields">
-                    <input class="Email" type="email" placeholder="Email">
+                    <input class="Email" type="email" name="email" placeholder="Email">
                 </div>
                 
                 <div class="input-fields">
-                    <input class="Password" type="password" placeholder="Password">
+                    <input class="Password" type="password" name="password" placeholder="Password">
                 </div>
 
                 <div class="input-fields">
-                    <input class="Confirm-Password" type="password" placeholder="Confirm password">
+                    <input class="Confirm-Password" type="password" name="password" placeholder="Confirm password">
                 </div>
 
                 <div class="input-fields">
-                    <input class="Code" type="text" placeholder="Enter Verification Code">
+                    <input class="Code" type="text" name="code" placeholder="Enter Verification Code">
                         <button class="CodeBtn">Send</button>
                     </input>
                 </div>
 
                 <div class="Submit-btn">
-                    <button class="submit">Submit</button>
+                    <button class="submit" type="submit">Submit</button>
                 </div>
             </form>
+
+            <div
+            id="form-message"
+            class="mt-6 text-sm font-medium px-4 py-2 rounded w-full max-w-lg lg:max-w-xl mx-auto h-10 opacity-0"
+            aria-hidden="true"
+            ></div>
 
         </div>
 
     </div>
 
+    <section style="display: none;" id="Section" >
+        <div class="Sample-Table">
+            <table class="Table">
+
+                <thead>
+                    <tr>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Code</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tableBody">
+                </tbody>
+
+            </table>
+        </div>
+    </section>
+
     <script src="function/login.js"></script>
 
-    <h2>hi</h2>
 </body>
 </html>

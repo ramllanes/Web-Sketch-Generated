@@ -64,7 +64,8 @@ body {
 }
 
 
-.btn {
+.btn-log,
+.btn-sign {
 
     padding: 10px 10px;
     background-color: rgb(40, 115, 176);
@@ -87,4 +88,33 @@ body {
 .btn:active {
 
     opacity: 0.5;
+}
+
+
+.Sample-Table {
+
+    border: 1px solid black;
+    position: relative;
+    width: 450px;
+    height: 200px;
+}
+
+
+.Table {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.Table th {
+
+    border: 1px solid black;
+}
+
+
+tbody td{
+
+    border: 1px solid black;
 }
